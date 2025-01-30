@@ -4,6 +4,7 @@ import Home from "./pages/Home";
 import LeadingBrand from "./component/LeadingBrand";
 import Features from "./pages/Features";
 import Howitworks from "./pages/Howitworks";
+import Whatweoffer from "./pages/Whatweoffer";
 
 const App = () => {
   return (
@@ -14,6 +15,7 @@ const App = () => {
       <LeadingBrand />
       <Features />
       <Howitworks/>
+      <Whatweoffer/>
     </div>
   );
 };
