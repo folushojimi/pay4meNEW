@@ -4,7 +4,7 @@ const Button = () => {
   return (
     <div>
       {/* download button */}
-<button className='bg-[#A4C47D] p-3 flex justify-center gap-2 items-center text-black rounded-full'>
+<button className='bg-[#AFE274] p-4 px-6 flex justify-center gap-2 items-center text-black rounded-full text-sm border-1 border-[#A4C47D]'>
     Download app
 
 <div className='flex justify-center gap-2 items-center'>
