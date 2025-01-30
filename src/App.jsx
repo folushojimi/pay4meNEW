@@ -8,7 +8,7 @@ import Whatweoffer from "./pages/Whatweoffer";
 
 const App = () => {
   return (
-    <div>
+    <div className="overflow-hidden">
       <Routes>
         <Route path="/" element={<Home />} />
       </Routes>
