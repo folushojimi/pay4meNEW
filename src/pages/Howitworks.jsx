@@ -30,7 +30,7 @@ const Howitworks = () => {
             </div>
             <div className="flex">
               <img src="/images/Vector2.svg" alt="vector2" />
-              <p className="text-xs max-w-64 leading-5">
+              <p className="text-xs max-w-64 leading-5 text-[#5D5D5D]">
                 Get started by downloading our mobile app, available on iOS and
                 Android.
               </p>
@@ -46,7 +46,7 @@ const Howitworks = () => {
               <h1 className="font-semibold mb-10">2.</h1>
 
               <h1 className="font-semibold mb-7">Sign up on the app.</h1>
-              <p className="text-xs max-w-64 leading-5">
+              <p className="text-xs max-w-64 leading-5 text-[#5D5D5D]">
                 Sign up with your details, verify your identity, and set up your
                 payment preferences.
               </p>
@@ -65,10 +65,10 @@ const Howitworks = () => {
               <h1 className="font-semibold mb-10">3.</h1>
 
               <h1 className="font-semibold mb-7">Setup Payment Details</h1>
-              <p className="text-xs max-w-64 leading-5">
+              <p className="text-xs max-w-64 leading-5 text-[#5D5D5D]">
                 Securely link your local bank account or mobile wallet to the
                 Pay4me app.
-              </p>
+              </p> 
             </div>
 
             <div className="flex justify-center items-center mt-10">
@@ -81,7 +81,7 @@ const Howitworks = () => {
               <h1 className="font-semibold mb-10">4.</h1>
 
               <h1 className="font-semibold mb-7">Complete Your Payment</h1>
-              <p className="text-xs max-w-72 leading-5">
+              <p className="text-xs max-w-72 leading-5 text-[#5D5D5D]">
                 Choose your preferred payment method and finalize the
                 transaction securely.
               </p>

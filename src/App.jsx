@@ -7,6 +7,7 @@ import Howitworks from "./pages/Howitworks";
 import Whatweoffer from "./pages/Whatweoffer";
 import Demovideo from "./pages/Demovideo";
 import Testimonial from "./pages/Testimonial";
+import Footer from "./pages/Footer";
 
 const App = () => {
   return (
@@ -20,6 +21,7 @@ const App = () => {
       <Whatweoffer/>
       <Demovideo/>
       <Testimonial/>
+      <Footer/>
     </div>
   );
 };

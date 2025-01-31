@@ -2,7 +2,7 @@ import React from 'react'
 
 const Demovideo = () => {
   return (
-    <div>
+    <div className='cursor-pointer overflow-hidden'>
     <img src="/images/staticdemo.svg" alt="" />
     </div>
   )

@@ -25,7 +25,7 @@ const Features = () => {
                 <h3 className="font-semibold text-xl mb-5">
                   Global Accessiblity
                 </h3>
-                <p className="text-xs w-60 leading-5">
+                <p className="text-xs w-60 leading-5 text-[#5D5D5D]">
                   Effortlessly send tuition and other payments to educational
                   institutions worldwide, no matter where you are.
                 </p>
@@ -39,7 +39,7 @@ const Features = () => {
                 <h3 className="font-semibold text-xl mb-5">
                   Fast & Reliable Transactions
                 </h3>
-                <p className="text-xs w-60 leading-5">
+                <p className="text-xs w-60 leading-5 text-[#5D5D5D]">
                   Ensure your payments are processed quickly, helping you meet
                   important deadlines without stress.
                 </p>
@@ -53,7 +53,7 @@ const Features = () => {
                 <h3 className="font-semibold text-xl mb-5">
                   Secure & Transparent
                 </h3>
-                <p className="text-xs w-60 leading-5">
+                <p className="text-xs w-60 leading-5 text-[#5D5D5D]">
                   Enjoy peace of mind with secure payment processing and
                   complete transparency on fees and conversion rates.
                 </p>
