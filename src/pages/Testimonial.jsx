@@ -3,7 +3,7 @@ import Carousel from "./Carousel";
 
 const Testimonial = () => {
   return (
-    <div className="h-[700px] bg-white overflow-hidden">
+    <div className="h-[700px] bg-white overflow-hidden ">
       {/*3D Curve*/}
       <div className="absolute right-1">
         <img src="/images/3Dcurve.svg" alt="" className="h-[220px]" />

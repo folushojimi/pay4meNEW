@@ -2,7 +2,7 @@ import React from "react";
 
 const Footer = () => {
   return (
-    <div>
+    <div className="">
       <div className="flex justify-between items-start px-14 py-5">
         <div>
           <img src="/images/footerlogo.svg" alt="footerlogo" className="mb-5" />
@@ -58,7 +58,7 @@ const Footer = () => {
 
         {/* Download Buttons */}
         <div className="">
-          <div className="flex gap-2 mb-3">
+          <div className="flex gap-2 mb-5">
             <button className="bg-black flex gap-3 justify-center items-center rounded-full py-2 px-6">
               <img src="/images/whiteapple.svg" alt="" />
               <div>
@@ -81,11 +81,8 @@ const Footer = () => {
             start enjoying all the benefits of pay4Me.
           </p>
         </div>
-
-
-        
       </div>
-     {/*Year*/}
+      {/*Year*/}
       <div className="border-[1px]  border-y-[#D8D8D8] flex justify-center py-10">
         <p className="text-sm text-[#7D7D7D]">© 2020 - 2025 Pay4Me, Inc.</p>
       </div>
@@ -93,17 +90,17 @@ const Footer = () => {
       {/* footer description */}
       <div className="flex gap-3 pb-5">
         <img src="/images/last3D.svg" alt="last3d.svg" />
-      <p className="text-[#666565] text-xs leading-6 pt-10">Pay4Me is a financial technology company making it easier for international
-         students and immigrants to pay their tuition and fees in minutes. We offer 
-         our products and services in partnership with licensed transmitters and 
-         banking partners in their respective jurisdictions. All trademarks, logos,
-          and brand names are the property of their respective owners. All company
-          , product, and service names used on this website are for identification
-           purposes only. Use of these names, trademarks and brands do not imply
-           endorsement.
+        <p className="text-[#666565] text-xs leading-6 pt-10">
+          Pay4Me is a financial technology company making it easier for
+          international students and immigrants to pay their tuition and fees in
+          minutes. We offer our products and services in partnership with
+          licensed transmitters and banking partners in their respective
+          jurisdictions. All trademarks, logos, and brand names are the property
+          of their respective owners. All company , product, and service names
+          used on this website are for identification purposes only. Use of
+          these names, trademarks and brands do not imply endorsement.
         </p>
       </div>
-      
     </div>
   );
 };

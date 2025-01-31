@@ -8,6 +8,8 @@ import Whatweoffer from "./pages/Whatweoffer";
 import Demovideo from "./pages/Demovideo";
 import Testimonial from "./pages/Testimonial";
 import Footer from "./pages/Footer";
+import BarcodeBanner from "./pages/BarcodeBanner";
+import BlogCarousel from "./pages/BlogCarousel";
 
 const App = () => {
   return (
@@ -21,6 +23,8 @@ const App = () => {
       <Whatweoffer/>
       <Demovideo/>
       <Testimonial/>
+      <BlogCarousel/>
+      <BarcodeBanner/>
       <Footer/>
     </div>
   );
