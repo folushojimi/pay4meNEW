@@ -10,7 +10,7 @@ const Testimonial = () => {
        </div>
 
       {/*Main Content*/}
-       <div className=' border-2 border-red-500 relative z-10 pt-20'>
+       <div className=' relative z-10 pt-20'>
         {/* header */}
         <div className='ml-28'>
             <img src="/images/testimony.svg" alt="" className='mb-9'/>
