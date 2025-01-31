@@ -5,6 +5,8 @@ import LeadingBrand from "./component/LeadingBrand";
 import Features from "./pages/Features";
 import Howitworks from "./pages/Howitworks";
 import Whatweoffer from "./pages/Whatweoffer";
+import Demovideo from "./pages/Demovideo";
+import Testimonial from "./pages/Testimonial";
 
 const App = () => {
   return (
@@ -16,6 +18,8 @@ const App = () => {
       <Features />
       <Howitworks/>
       <Whatweoffer/>
+      <Demovideo/>
+      <Testimonial/>
     </div>
   );
 };
