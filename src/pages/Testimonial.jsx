@@ -1,6 +1,6 @@
 import React from 'react'
-import Carousel from '../component/carousel'
-
+import Carousel from './Carousel'
+ 
 const Testimonial = () => {
   return (
     <div className='h-[800px] bg-white'>
@@ -20,14 +20,9 @@ const Testimonial = () => {
 
        {/* the carousel */}
        <div>
-         <Carousel/>
+  <Carousel/>
+        </div>
        </div>
-
- 
-
-       </div>
-
-      
     </div>
   )
 }
