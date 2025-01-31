@@ -3,14 +3,21 @@ import React from "react";
 const Footer = () => {
   return (
     <div>
-      <div className="flex justify-center">
+      <div className="flex justify-between items-start px-14 ">
           <div>
-            <img src="/images/" alt="" />
-            <div className="flex gap-3 "><img src="/images/email.svg" alt="" /> <p className="text-[#5D5D5D]">support@pay4me.app</p></div>
+            <img src="/images/footerlogo.svg" alt="footerlogo" className="mb-5"/>
+            <div className="flex items-center gap-3 mb-8"><img src="/images/email.svg" alt="" /> <p className="text-[#5D5D5D] text-sm">support@pay4me.app</p></div>
+            <div className="flex items-center gap-5">
+            <img src="/images/instagram.svg" alt="instagram" />
+            <img src="/images/twitter.svg" alt="twitter" />
+            <img src="/images/facebook.svg" alt="facebook" />
+            <img src="/images/tiktok.svg" alt="tiktok" />
+            <img src="/images/youtube.svg" alt="youtube" />
+            </div>
           </div>
 
         {/* Company List */}
-        <div className="p-4">
+        <div className="">
           <h1 className="font-semibold text-lg mb-4">Company</h1>
           <ul className="space-y-4 text-sm text-[#5D5D5D]">
             <li>About</li>
@@ -22,7 +29,7 @@ const Footer = () => {
         </div>
 
         {/* Company List */}
-        <div className="p-4">
+        <div className="">
           <h1 className="font-semibold text-lg mb-4">Resources</h1>
           <ul className="space-y-4 text-sm text-[#5D5D5D]">
             <li>Android Reviews</li>
@@ -34,7 +41,7 @@ const Footer = () => {
         </div>
 
         {/* Company List */}
-        <div className="p-4">
+        <div className="">
           <h1 className="font-semibold text-lg mb-4">Legal</h1>
           <ul className="space-y-4 text-sm text-[#5D5D5D]">
             <li>Terms of Service</li>
